@@ -8,7 +8,7 @@ import urllib.request
 
 URL = "https://www.reserved.com/es/es/chaqueta-jacquard-482lo-mlc"
 PRODUCT = "482LO-MLC"
-WANTED = ["XS", "S", "XXL"]  # sizes you want to be alerted about
+WANTED = ["XS", "S"]  # sizes you want to be alerted about
 
 TOKEN = os.environ.get("TELEGRAM_TOKEN", "")
 CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "")
